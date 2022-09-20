@@ -1,0 +1,127 @@
+:root {
+  --dark__violete: #443266;
+  --lightest__violete: #c3c3e5;
+  --violete: #8c489f;
+  --gray: #f1f0ff;
+  --red: #bb2525;
+  --blue: #49a6e9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--gray);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Loading {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 80%;
+}
+
+.app-container {
+  display: block;
+  margin: 5% auto;
+  max-width: 50%;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  border-radius: 1%;
+  gap: 1.5rem;
+}
+
+.app-container > * {
+  margin-bottom: 50px;
+}
+.description {
+  display: block;
+  width: 18%;
+  margin: 20px auto;
+  color: var(--dark__violete);
+  border-bottom: 3.5px solid var(--violete);
+  padding-bottom: 5px;
+}
+
+.first__controll {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.image {
+  width: 100%;
+  height: 320px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.btn {
+  color: var(--red);
+  border: 1px solid var(--red);
+  padding: 0.5rem;
+  width: 40%;
+  border-radius: 3%;
+  background-color: var(--gray);
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.container-div {
+  padding: 4%;
+}
+
+.titel {
+  color: var(--dark__violete);
+}
+
+.price {
+  display: block;
+  width: 15%;
+  color: var(--blue);
+  background-color: #d8f9ff;
+  font-weight: 500;
+  border-radius: 10%;
+}
+
+.read__more {
+  border: none;
+  color: var(--blue);
+  background-color: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.refresh {
+  color: white;
+  background-color: var(--blue);
+  padding: 5%;
+  border: none;
+  border-radius: 2%;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.refresh-container {
+  margin-top: 80%;
+}
